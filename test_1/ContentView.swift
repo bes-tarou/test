@@ -13,7 +13,7 @@ struct ContentView: View {
     
     var body: some View {
         ZStack{
-            Color(red: 0.2, green: 0.5, blue: 0.2)
+            Color(red: 0.2, green: 0.5, blue: 0.2, opacity: 0.7)
         VStack{
             Image(systemName: "curlybraces")
                 .resizable()
@@ -48,12 +48,20 @@ struct ContentView: View {
             ZStack(alignment: .bottom){
                 HStack{
                     Image(systemName: "barcode")
+                        .resizable()
+                        .frame(width: 100, height: 80)
                     Text("Apple")
+                        .frame(width: 100, height: 50)
+                        .font(.title)
                     Image(systemName: "barcode")
+                        .resizable()
+                        .frame(width: 100, height: 80)
                 }
+                .frame(height: 100)
+                
                 Image(systemName: "barcode")
                     .resizable()
-                    .frame(width: 200, height: 150)
+                    .frame(width: 250, height: 180)
                     .opacity(0.1)
             }
             }
