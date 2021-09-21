@@ -14,7 +14,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		691A691626F9FA6100ED7A55 /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		691A691626F9FA6100ED7A55 /* test_1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test_1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		691A691926F9FA6100ED7A55 /* testApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testApp.swift; sourceTree = "<group>"; };
 		691A691B26F9FA6100ED7A55 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		691A691D26F9FA6200ED7A55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -35,7 +35,7 @@
 		691A690D26F9FA6100ED7A55 = {
 			isa = PBXGroup;
 			children = (
-				691A691826F9FA6100ED7A55 /* test */,
+				691A691826F9FA6100ED7A55 /* test_1 */,
 				691A691726F9FA6100ED7A55 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,12 +43,12 @@
 		691A691726F9FA6100ED7A55 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				691A691626F9FA6100ED7A55 /* test.app */,
+				691A691626F9FA6100ED7A55 /* test_1.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		691A691826F9FA6100ED7A55 /* test */ = {
+		691A691826F9FA6100ED7A55 /* test_1 */ = {
 			isa = PBXGroup;
 			children = (
 				691A691926F9FA6100ED7A55 /* testApp.swift */,
@@ -56,7 +56,7 @@
 				691A691D26F9FA6200ED7A55 /* Assets.xcassets */,
 				691A691F26F9FA6200ED7A55 /* Preview Content */,
 			);
-			path = test;
+			path = test_1;
 			sourceTree = "<group>";
 		};
 		691A691F26F9FA6200ED7A55 /* Preview Content */ = {
@@ -70,9 +70,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		691A691526F9FA6100ED7A55 /* test */ = {
+		691A691526F9FA6100ED7A55 /* test_1 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 691A692426F9FA6200ED7A55 /* Build configuration list for PBXNativeTarget "test" */;
+			buildConfigurationList = 691A692426F9FA6200ED7A55 /* Build configuration list for PBXNativeTarget "test_1" */;
 			buildPhases = (
 				691A691226F9FA6100ED7A55 /* Sources */,
 				691A691326F9FA6100ED7A55 /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = test;
+			name = test_1;
 			productName = test;
-			productReference = 691A691626F9FA6100ED7A55 /* test.app */;
+			productReference = 691A691626F9FA6100ED7A55 /* test_1.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 691A691126F9FA6100ED7A55 /* Build configuration list for PBXProject "test" */;
+			buildConfigurationList = 691A691126F9FA6100ED7A55 /* Build configuration list for PBXProject "test_1" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				691A691526F9FA6100ED7A55 /* test */,
+				691A691526F9FA6100ED7A55 /* test_1 */,
 			);
 		};
 /* End PBXProject section */
@@ -324,7 +324,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		691A691126F9FA6100ED7A55 /* Build configuration list for PBXProject "test" */ = {
+		691A691126F9FA6100ED7A55 /* Build configuration list for PBXProject "test_1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				691A692226F9FA6200ED7A55 /* Debug */,
@@ -333,7 +333,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		691A692426F9FA6200ED7A55 /* Build configuration list for PBXNativeTarget "test" */ = {
+		691A692426F9FA6200ED7A55 /* Build configuration list for PBXNativeTarget "test_1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				691A692526F9FA6200ED7A55 /* Debug */,

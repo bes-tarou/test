@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     @State var kirikae = false
+    @State var kyoka2 = false
     
     var body: some View {
         VStack{
@@ -18,8 +19,14 @@ struct ContentView: View {
         Button(action :{
             self.kirikae.toggle()
         }){
-            Text("button")
+            Text("button1")
         }
+            
+            Button(action: {
+                self.kyoka2.toggle()
+            }){
+                Text("button2")
+            }
         }
     }
 }
