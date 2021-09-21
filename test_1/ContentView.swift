@@ -12,7 +12,12 @@ struct ContentView: View {
     @State var kyoka2 = false
     
     var body: some View {
+        ZStack{
+            Color(red: 0.2, green: 0.5, blue: 0.2)
         VStack{
+            Image(systemName: "curlybraces")
+                .resizable()
+                .frame(width: 100, height: 100)
             
             HStack{
                 Group{
@@ -36,6 +41,7 @@ struct ContentView: View {
                     
                 }
                 .frame(width:100, height: 100)
+                .foregroundColor(.black)
             }
             
             
@@ -49,6 +55,7 @@ struct ContentView: View {
                     .resizable()
                     .frame(width: 200, height: 150)
                     .opacity(0.1)
+            }
             }
         }
     }
