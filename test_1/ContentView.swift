@@ -13,19 +13,42 @@ struct ContentView: View {
     
     var body: some View {
         VStack{
-        Text("Hello, world!")
-            .padding()
-        
-        Button(action :{
-            self.kirikae.toggle()
-        }){
-            Text("button1")
-        }
             
-            Button(action: {
-                self.kyoka2.toggle()
-            }){
-                Text("button2")
+            HStack{
+                Group{
+                    Spacer()
+                    Button(action :{
+                        self.kirikae.toggle()
+                    }){
+                        Image(systemName: "plus.app")
+                            .resizable()
+                    }
+                    
+                    Spacer()
+                    
+                    Button(action: {
+                        self.kyoka2.toggle()
+                    }){
+                        Image(systemName: "minus.square")
+                            .resizable()
+                    }
+                    Spacer()
+                    
+                }
+                .frame(width:100, height: 100)
+            }
+            
+            
+            ZStack(alignment: .bottom){
+                HStack{
+                    Image(systemName: "barcode")
+                    Text("Apple")
+                    Image(systemName: "barcode")
+                }
+                Image(systemName: "barcode")
+                    .resizable()
+                    .frame(width: 200, height: 150)
+                    .opacity(0.1)
             }
         }
     }
